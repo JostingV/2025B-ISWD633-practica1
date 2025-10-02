@@ -12,7 +12,7 @@ docker create --name <nombre contenedor> <nombre imagen>:<tag>
 Si creas un contenedor en Docker sin asignarle un nombre específico utilizando la opción --name, Docker asignará automáticamente un nombre aleatorio al contenedor. Este nombre suele consistir en una combinación de palabras y números.  
 
 Crear el contenedor usando la imagen hello-world
-# COMPLETAR
+<img width="1482" height="105" alt="image" src="https://github.com/user-attachments/assets/8d5977f0-3634-4f40-b7b7-c4bc99de7c62" />
 
 ### Listar los contenedores ejecutándose o no
 
