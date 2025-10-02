@@ -17,7 +17,7 @@ Descargar la imagen **hello-world**
 # COMPLETAR
 
 **¿Qué es nginx**
-# COMPLETAR 
+NGINX es una herramienta multifunción. Con NGINX, puede utilizar la misma herramienta que su balanceador de carga, proxy inverso, caché de contenido y servidor web, lo que minimiza la cantidad de herramientas y configuraciones que su organización necesita mantener.
 
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
