@@ -13,7 +13,7 @@ Una imagen puede tener la etiqueta latest para representar la última versión, 
 docker pull <nombre imagen>:<tag>
 !img width="1473" height="756" alt="image" src="https://github.com/user-attachments/assets/9c5e2bb5-fcc0-48ad-8b1c-0545dfef4419"
 
-```
+
 Descargar la imagen **hello-world**
 # **¿Qué es nginx**
 
@@ -23,7 +23,7 @@ NGINX es una herramienta multifunción. Con NGINX, puede utilizar la misma herra
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
 ![image](https://github.com/user-attachments/assets/991da279-8606-409d-a3d7-b7931f199002)
-
+```
 
 ### Listar imágenes
 
