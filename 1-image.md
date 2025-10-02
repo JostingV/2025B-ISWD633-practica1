@@ -11,7 +11,7 @@ Una imagen puede tener la etiqueta latest para representar la última versión, 
 
 ```
 docker pull <nombre imagen>:<tag>
-```<img width="1473" height="756" alt="image" src="https://github.com/user-attachments/assets/9c5e2bb5-fcc0-48ad-8b1c-0545dfef4419" />
+!img width="1473" height="756" alt="image" src="https://github.com/user-attachments/assets/9c5e2bb5-fcc0-48ad-8b1c-0545dfef4419"
 
 
 Descargar la imagen **hello-world**
