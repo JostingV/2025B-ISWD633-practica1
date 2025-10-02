@@ -22,7 +22,8 @@ NGINX es una herramienta multifunción. Con NGINX, puede utilizar la misma herra
 
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
-<img width="1462" height="753" alt="image" src="https://github.com/user-attachments/assets/991da279-8606-409d-a3d7-b7931f199002" />
+![image](https://github.com/user-attachments/assets/991da279-8606-409d-a3d7-b7931f199002)
+
 
 ### Listar imágenes
 
