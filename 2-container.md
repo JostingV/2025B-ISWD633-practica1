@@ -34,12 +34,14 @@ Iniciar el contenedor srv-web
 docker ps 
 docker ps | grep <nombre contenedor>
 ```
+<img width="1479" height="155" alt="image" src="https://github.com/user-attachments/assets/216b004f-0536-4bb6-9644-2058756cf78c" />
 
 ### Para detener un contenedor
 
 ```
 docker stop <nombre contenedor>
 ```
+<img width="996" height="118" alt="image" src="https://github.com/user-attachments/assets/344c7d81-5179-4a46-870a-e0c57d3d74c7" />
 
 ### Para crear un contenedor y ejecutarlo inmediatamente
 
@@ -51,7 +53,6 @@ docker run --name <nombre contenedor> <nombre imagen>:<tag>
 Crear y ejecutar inmediatamente el contenedor **srv-web2** usando la imagen nginx:alpine
 
 <img width="1384" height="987" alt="image" src="https://github.com/user-attachments/assets/31a0667c-e55e-4eb2-b53f-4cfcb44da205" />
-# COMPLETAR
 
 **¿Qué sucede luego de la ejecución del comando?**
 Se ejecuta en 2do plano capturando la salida estandar del contenedor
@@ -66,7 +67,7 @@ Cuando un contenedor se ejecuta en segundo plano, Docker devuelve el control al 
 docker run -d --name <nombre contenedor> <nombre imagen>:tag
 ```
 Crear y ejecutar inmediatamente el contenedor **srv-web3** en modo detach usando la imagen nginx:alpine
-# COMPLETAR
+<img width="1047" height="106" alt="image" src="https://github.com/user-attachments/assets/50fe5862-8f7f-458d-9823-37740aa566d2" />
 
 ### Para eliminar un contenedor
 
@@ -74,10 +75,10 @@ Crear y ejecutar inmediatamente el contenedor **srv-web3** en modo detach usando
 docker rm <nombre contenedor>
 ```
 Eliminar el contenedor que se creó a partir de la imagen hello-world 
-# COMPLETAR
+<img width="592" height="104" alt="image" src="https://github.com/user-attachments/assets/e7362228-8e81-491f-9202-d46b2941933a" />
 
 Verificar que el contenedor que se eliminó
-# COMPLETAR
+<img width="1403" height="132" alt="image" src="https://github.com/user-attachments/assets/932d8256-5a7b-4cb1-aa31-804b979d3b01" />
 
 ### Para eliminar un contenedor que esté ejecutándose
 
@@ -85,12 +86,13 @@ Verificar que el contenedor que se eliminó
 docker rm -f <nombre contenedor>
 ```
 Eliminar el contenedor **srv-web3** 
-# COMPLETAR
+<img width="916" height="107" alt="image" src="https://github.com/user-attachments/assets/6d94cf21-5ad8-49bf-bec2-65330796de0d" />
 
 Verificar que el contenedor que se eliminó
-# COMPLETAR
+<img width="972" height="117" alt="image" src="https://github.com/user-attachments/assets/7890ed8a-ab53-4a68-a948-8465cb4cf747" />
 
 ### Para inspecionar un contenedor 
 
 Inspeccionar el contenedor **srv-web** 
-# COMPLETAR
+<img width="862" height="133" alt="image" src="https://github.com/user-attachments/assets/055cdc35-3999-4b44-b7c9-b7646354e2ff" />
+
