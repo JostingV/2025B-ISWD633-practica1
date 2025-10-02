@@ -19,7 +19,7 @@ Crear el contenedor usando la imagen hello-world
 ```
 docker ps -a
 ```
-
+<img width="1491" height="183" alt="image" src="https://github.com/user-attachments/assets/a212de72-d5e2-42b9-9c0b-3805bf9757b6" />
 ### Para iniciar un contenedor
 
 ```
