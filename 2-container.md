@@ -47,14 +47,14 @@ docker stop <nombre contenedor>
 docker run --name <nombre contenedor> <nombre imagen>:<tag>
 ```
 ![Ecosistema de Docker](dockerRun.PNG)
-<img width="1384" height="987" alt="image" src="https://github.com/user-attachments/assets/31a0667c-e55e-4eb2-b53f-4cfcb44da205" />
-
 
 Crear y ejecutar inmediatamente el contenedor **srv-web2** usando la imagen nginx:alpine
+
+<img width="1384" height="987" alt="image" src="https://github.com/user-attachments/assets/31a0667c-e55e-4eb2-b53f-4cfcb44da205" />
 # COMPLETAR
 
 **¿Qué sucede luego de la ejecución del comando?**
-# COMPLETAR  
+Se ejecuta en 2do plano capturando la salida estandar del contenedor
 
 Cuando ejecutas un contenedor en primer plano sin la opción -d (modo detach), el contenedor captura la entrada estándar (stdin) del terminal, lo que significa que el terminal queda "atrapado" y no puedes introducir más comandos hasta que detengas el contenedor.
 
