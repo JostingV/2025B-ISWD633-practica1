@@ -14,21 +14,22 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# COMPLETAR
+<img width="1473" height="751" alt="image" src="https://github.com/user-attachments/assets/192a4def-6913-40ab-a53f-52d0ea10ec7f" />
+
 
 **¿Qué es nginx**
-# COMPLETAR 
+Es un software de código abierto de alto rendimiento que funciona como servidor web, proxy inverso, balanceador de carga y caché de contenido.
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+<img width="1472" height="751" alt="image" src="https://github.com/user-attachments/assets/8e9456a9-bcf6-4869-93fd-3c05cc2ac2c0" />
+
 
 ### Listar imágenes
 
 ```
 docker images
 ```
-
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+<img width="975" height="161" alt="image" src="https://github.com/user-attachments/assets/af3747a1-50d8-4570-aff8-183e6c748d63" />
 
 **Identificadores**
 
@@ -43,10 +44,12 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
-# COMPLETAR
+<img width="1919" height="1016" alt="image" src="https://github.com/user-attachments/assets/83e9a331-e491-4b71-bd99-f1ef074df8a8" />
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/944ab92e-796e-4036-ab0b-6c232bb11664" />
+
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+Se genera mediante el algoritmo de hash SHA256. Este hash se crea a partir del contenido de la imagen.
 
 ### Filtrar imágenes
 
@@ -63,7 +66,8 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
-# COMPLETAR
+<img width="984" height="151" alt="image" src="https://github.com/user-attachments/assets/6ce9f0d5-0908-4abc-a8f4-70f6e0914a6f" />
+
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
@@ -74,3 +78,4 @@ Es una buena práctica detener y eliminar todos los contenedores que dependan de
 ```
 docker rmi -f <nombre imagen>:<tag>
 ```
+<img width="1010" height="163" alt="image" src="https://github.com/user-attachments/assets/d825b150-55f3-4a6c-9371-d09d362b0f86" />
